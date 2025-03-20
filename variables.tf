@@ -5,7 +5,12 @@ variable "project" {
 
 variable "name" {
   type        = string
-  description = "Names of the iam to create."
+  description = "Name of the I am resource"
+}
+
+variable "bucket" {
+  type        = string
+  description = "bucket name"
 }
 
 variable "location" {
